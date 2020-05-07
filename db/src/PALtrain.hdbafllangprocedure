@@ -1,0 +1,18 @@
+{ 
+  "area" : "AFLPAL", 
+  "function" : "AUTOARIMA", 
+  "parameters" : [ 
+    { 
+      "type" : "aa.forecast.db::PAL.TTData", 
+      "direction" : "IN" 
+    }, 
+    { 
+      "type" : "aa.forecast.db::PAL.TTParams", 
+      "direction" : "IN" 
+    }, 
+    { 
+      "type" : "aa.forecast.db::PAL.TTModel", 
+      "direction" : "OUT" 
+    } 
+  ]
+}
